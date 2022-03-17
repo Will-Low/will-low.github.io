@@ -8,12 +8,14 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 17 Mar 2022 14:52:39 -0700</lastBuildDate><atom:link href="https://will-low.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>TDD</title>
+      <title>Everything You Need to Know About TDD</title>
       <link>https://will-low.github.io/posts/tdd/</link>
       <pubDate>Thu, 17 Mar 2022 14:52:39 -0700</pubDate>
       
       <guid>https://will-low.github.io/posts/tdd/</guid>
-      <description>TDD Overview</description>
+      <description>a.k.a. &amp;ldquo;Mastering TDD&amp;rdquo; a.k.a. &amp;ldquo;Advanced TDD&amp;rdquo;
+This is a work in progress. Expect updates.
+For the past 9 months, I&amp;rsquo;ve been focusing on learning test-driven development (TDD). This is easier said than done. While the principles of TDD are easy, fluency (not that I can claim it) is challenging. I continue to meet people who have given up because the learning process has been too hard. I think this is largely due to the lack of intermediate materials.</description>
     </item>
     
   </channel>
