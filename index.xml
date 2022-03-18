@@ -17,5 +17,14 @@
 For the past 9 months, I&amp;rsquo;ve been focusing on learning test-driven development (TDD). This is easier said than done. While the principles of TDD are easy, fluency (not that I can claim it) is challenging. I continue to meet people who have given up because the learning process has been too hard. I think this is largely due to the lack of intermediate materials.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://will-low.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://will-low.github.io/about/</guid>
+      <description>Will Springer is a former information security engineer. He currently is focusing on building security software.</description>
+    </item>
+    
   </channel>
 </rss>
