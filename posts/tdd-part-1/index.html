@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<title>Everything You Need to Know About TDD - Part 1 | Will Springer - Security Developer</title>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.92.2" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://will-low.github.io/css/index.css">
+<link rel="canonical" href="https://will-low.github.io/posts/tdd-part-1/">
+<link rel="alternate" type="application/rss+xml" href="" title="Will Springer - Security Developer">
+
+<header>
+  
+    <a href="https://will-low.github.io/" class="title">Will Springer - Security Developer</a>
+  
+  
+    <nav>
+    
+      <a href="/about/">About</a>
+    
+    </nav>
+  
+</header>
+
+<article>
+  <header>
+    <h1>Everything You Need to Know About TDD - Part 1</h1>
+    <time datetime="2022-03-17T14:52:39-07:00">March 17, 2022</time>
+  </header>
+  <p><em>a.k.a. &ldquo;Mastering TDD&rdquo; a.k.a. &ldquo;Advanced TDD&rdquo;</em></p>
+<p>For the past 9 months, I&rsquo;ve been focusing on learning test-driven development (TDD). This is easier said than done. While the principles of TDD are easy, fluency (not that I can claim it) is challenging. I continue to meet people who have given up because the learning process has been too hard. I think this is largely due to the lack of intermediate materials.</p>
+<p>The goal of this article is to try to collect all of the knowledge and resources that I&rsquo;ve come across to move beyond the basics of TDD and become comfortable practicing it.</p>
+<h1 id="the-basics">The Basics</h1>
+<p>The basics for TDD are easy:</p>
+<ol>
+<li>Write a failing test.</li>
+<li>Write the code that makes the test pass.</li>
+<li>Refactor.</li>
+</ol>
+<p>Here is a slightly more nuanced take:</p>
+<ol>
+<li>Write a test and confirm that it fails for the expected reason.</li>
+<li>Write the minimal production code necessary to make the test past.</li>
+<li>Refactor the production code <strong>and</strong> the test code.</li>
+</ol>
+<p><em><strong>Q. Why do you make sure the test fails in step 1?</strong></em></p>
+<p>A. We don&rsquo;t have tests for our tests. By ensuring the test fails, we make sure that the test is going to successfully catch a problem in our code, if our code was to break in the future. Countless times I&rsquo;ve made a mistake in my test boilerplate meaning that my tests passed even when they shouldn&rsquo;t have. This is a crucial step!</p>
+<p><em><strong>Q. For step 2, can I write more than the minimum production code necessary? This seems like it could get annoying.</strong></em></p>
+<p>A. This is highly recommended and, once you get used to it, from my experience it got less annoying. One reason why this is recommended is that it ensures you always have complete test coverage of the code you are building.</p>
+<p><em><strong>Q. Why refactor the test code as well in step 3?</strong></em></p>
+<p>A. What we&rsquo;re aiming to do in TDD is to test the public API of our code (more on this later). Our tests are the first clients of our public API. We want them to be readable, since they will demonstrate how to utilize our code. We also need our tests to run quickly so we run them regularly. If we have sloppy test setup, this may harm our test runtime, once our system gets large.</p>
+<h1 id="have-a-question-a-different-opinion-or-spot-a-mistake">Have a Question, a Different Opinion, or Spot a Mistake?</h1>
+<p>Please send me a tweet: <a href="https://twitter.com/willspringersec">@willspringersec</a></p>
+<h1 id="further-resources">Further Resources</h1>
+<ul>
+<li>Test-Driven Development: By Example - Kent Beck</li>
+<li>Growing Object-Oriented Software, Guided by Tests - Steve Freeman and Nat Pryce</li>
+<li><a href="https://www.youtube.com/watch?v=EZ05e7EMOLM">TDD, Where Did It All Go Wrong</a> - an excellent talk by <a href="https://twitter.com/ICooper">Ian Cooper</a></li>
+<li><a href="https://www.youtube.com/watch?v=24vzFAvOzo0">Outside-In Classicist TDD by Sandro Mancuso</a> - a nice demonstration of TDD driven by testing the public interface</li>
+</ul>
+
+</article>
+
+
+
+</html>
