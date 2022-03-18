@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<title>Everything You Need to Know About TDD | Will Springer - Security Developer</title>
+<title>Everything You Need to Know About TDD - Part 1 | Will Springer - Security Developer</title>
 <meta charset="utf-8">
 <meta name="generator" content="Hugo 0.92.2" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,11 +23,10 @@
 
 <article>
   <header>
-    <h1>Everything You Need to Know About TDD</h1>
+    <h1>Everything You Need to Know About TDD - Part 1</h1>
     <time datetime="2022-03-17T14:52:39-07:00">March 17, 2022</time>
   </header>
   <p><em>a.k.a. &ldquo;Mastering TDD&rdquo; a.k.a. &ldquo;Advanced TDD&rdquo;</em></p>
-<p><em>This is a work in progress. Expect updates.</em></p>
 <p>For the past 9 months, I&rsquo;ve been focusing on learning test-driven development (TDD). This is easier said than done. While the principles of TDD are easy, fluency (not that I can claim it) is challenging. I continue to meet people who have given up because the learning process has been too hard. I think this is largely due to the lack of intermediate materials.</p>
 <p>The goal of this article is to try to collect all of the knowledge and resources that I&rsquo;ve come across to move beyond the basics of TDD and become comfortable practicing it.</p>
 <h1 id="the-basics">The Basics</h1>
@@ -49,10 +48,9 @@
 <p>A. This is highly recommended and, once you get used to it, from my experience it got less annoying. One reason why this is recommended is that it ensures you always have complete test coverage of the code you are building.</p>
 <p><em><strong>Q. Why refactor the test code as well in step 3?</strong></em></p>
 <p>A. What we&rsquo;re aiming to do in TDD is to test the public API of our code (more on this later). Our tests are the first clients of our public API. We want them to be readable, since they will demonstrate how to utilize our code. We also need our tests to run quickly so we run them regularly. If we have sloppy test setup, this may harm our test runtime, once our system gets large.</p>
-<p><em>The Next Section: At What Level to Test</em></p>
 <h1 id="have-a-question-a-different-opinion-or-spot-a-mistake">Have a Question, a Different Opinion, or Spot a Mistake?</h1>
 <p>Please send me a tweet: <a href="https://twitter.com/willspringersec">@willspringersec</a></p>
-<h1 id="resources">Resources</h1>
+<h1 id="further-resources">Further Resources</h1>
 <ul>
 <li>Test-Driven Development: By Example - Kent Beck</li>
 <li>Growing Object-Oriented Software, Guided by Tests - Steve Freeman and Nat Pryce</li>
