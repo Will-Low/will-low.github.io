@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kata on Will Springer - Security Developer</title>
+    <link>https://www.willspringersec.com/tags/kata/</link>
+    <description>Recent content in kata on Will Springer - Security Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©2022–⁠ Will Springer</copyright>
+    <lastBuildDate>Fri, 18 Mar 2022 08:30:36 -0700</lastBuildDate><atom:link href="https://www.willspringersec.com/tags/kata/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Practice Code Katas?</title>
+      <link>https://www.willspringersec.com/posts/why-katas/</link>
+      <pubDate>Fri, 18 Mar 2022 08:30:36 -0700</pubDate>
+      
+      <guid>https://www.willspringersec.com/posts/why-katas/</guid>
+      <description>I started doing code katas when I started learning TDD. At the time, I thought their purposes was to learn how to solve the problem at hand. Over time, I&amp;rsquo;ve come to appreciate that this is not the goal of doing katas.
+What is a Kata? A kata is simple programming scenario. They are similar to what many refer to as &amp;ldquo;LeetCode&amp;rdquo; exercises, but with a completely different end goal. Instead of trying to solve a novel problem, a kata is an exercise you solve and then repeat over and over again.</description>
+    </item>
+    
+  </channel>
+</rss>
