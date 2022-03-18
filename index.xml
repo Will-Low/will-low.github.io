@@ -2,28 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Will Springer - Security Developer</title>
-    <link>https://will-low.github.io/</link>
+    <link>https://www.willspringersec.com/</link>
     <description>Recent content on Will Springer - Security Developer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©2022–⁠ Will Springer</copyright>
-    <lastBuildDate>Thu, 17 Mar 2022 14:52:39 -0700</lastBuildDate><atom:link href="https://will-low.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Mar 2022 08:30:36 -0700</lastBuildDate><atom:link href="https://www.willspringersec.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Practice Code Katas?</title>
+      <link>https://www.willspringersec.com/posts/why-katas/</link>
+      <pubDate>Fri, 18 Mar 2022 08:30:36 -0700</pubDate>
+      
+      <guid>https://www.willspringersec.com/posts/why-katas/</guid>
+      <description>I started doing code katas when I started learning TDD. At the time, I thought their purposes was to learn how to solve the problem at hand. Over time, I&amp;rsquo;ve come to appreciate that this is not the goal of doing katas.
+What is a Kata? A kata is simple programming scenario. They are similar to what many refer to as &amp;ldquo;LeetCode&amp;rdquo; exercises, but with a completely different end goal. Instead of trying to solve a novel problem, a kata is an exercise you solve and then repeat over and over again.</description>
+    </item>
+    
     <item>
       <title>Everything You Need to Know About TDD - Part 1</title>
-      <link>https://will-low.github.io/posts/tdd-part-1/</link>
+      <link>https://www.willspringersec.com/posts/tdd-part-1/</link>
       <pubDate>Thu, 17 Mar 2022 14:52:39 -0700</pubDate>
       
-      <guid>https://will-low.github.io/posts/tdd-part-1/</guid>
+      <guid>https://www.willspringersec.com/posts/tdd-part-1/</guid>
       <description>a.k.a. &amp;ldquo;Mastering TDD&amp;rdquo; a.k.a. &amp;ldquo;Advanced TDD&amp;rdquo;
 For the past 9 months, I&amp;rsquo;ve been focusing on learning test-driven development (TDD). This is easier said than done. While the principles of TDD are easy, fluency (not that I can claim it) is challenging. I continue to meet people who have given up because the learning process has been too hard. I think this is largely due to the lack of intermediate materials.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://will-low.github.io/about/</link>
+      <link>https://www.willspringersec.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://will-low.github.io/about/</guid>
+      <guid>https://www.willspringersec.com/about/</guid>
       <description>I&amp;rsquo;m a former information security engineer, currently building security software.</description>
     </item>
     
